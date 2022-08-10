@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Glow Arts SKU Generator</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="script/script.js" defer></script>
+  </head>
+
+  <body>
+    <title>Glow Arts SKU Generator</title>
+    <h1>Glow Arts SKU Generator</h1>
+    <p class="draft"> (ONGOING/NOT YET FINISHED)</p>
+
+    <section class="storeDescription">
+        <p>Glow Arts is one of the leading customized t-shirt printing stores in the Philippines. To create a product SKU, just combine all the codes, strictly following the order below:</p>
+        <ol>
+            <li>Brand</li>
+            <li>Shirt Size</li>
+            <li>Color</li>
+            <li>Print Size</li>
+            <li>Print Location</li>
+        </ol>
+
+        <p>Just take note to insert a dash (-) between <strong>Print Size</strong> and <strong>Print Location</strong> codes.</p>
+    </section>
+    <section class="skuGuideCodes">
+        <h2>Below are the tables that will serve as guides on the SKU code creation.</h2>
+
+    <div class="tablesContainer">
+        <table class="brand">
+            <thead>
+                <tr>
+                    <th>BRAND</th>
+                    <th>CODE</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr id="GA1" onClick="reply_click(this.id)">
+                    <th>Yalex</th>
+                    <td>GA1</td>
+                </tr>
+                <tr id="GA2" onClick="reply_click(this.id)">
+                    <th>Lifeline</th>
+                    <td>GA2</td>
+                </tr>
+                <tr id="GA3" onClick="reply_click(this.id)">
+                    <th>Blue Corner</th>
+                    <td>GA3</td>
+                </tr>
+                <tr id="GA4" onClick="reply_click(this.id)">
+                    <th>Southport</th>
+                    <td>GA4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <td><button type="button" class="btn btnBrand">Confirm</button></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table class="shirtSize">
+            <thead>
+                <tr>
+                    <th>SHIRT SIZE</th>
+                    <th>CODE</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>Extra Small</th>
+                    <td>XS</td>
+                </tr>
+                <tr>
+                    <th>Small</th>
+                    <td>SM</td>
+                </tr>
+                <tr>
+                    <th>Medium</th>
+                    <td>MD</td>
+                </tr>
+                <tr>
+                    <th>Large</th>
+                    <td>LG</td>
+                </tr>
+                <tr>
+                    <th>Extra Large</th>
+                    <td>XL</td>
+                </tr>
+                <tr>
+                    <th>Extra(x2) large</th>
+                    <td>2XL</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <td><button type="button" class="btn btnShirtSize">Confirm</button></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table class="color">
+            <thead>
+                <tr>
+                    <th colspan="2">COLOR</th>
+                    <th>CODE</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th rowspan="16">Dark Color</th>
+                    <th>Black</th>
+                    <td>BL</td>
+                </tr>
+                <tr>
+                    <th>Navy Blue</th>
+                    <td>NB</td>
+                </tr>
+                <tr>
+                    <th>Royal Blue</th>
+                    <td>RB</td>
+                </tr>
+                <tr>
+                    <th>Turquoise</th>
+                    <td>TR</td>
+                </tr>
+                <tr>
+                    <th>Emerald Green</th>
+                    <td>EG</td>
+                </tr>
+                <tr>
+                    <th>Yellow Gold</th>
+                    <td>YG</td>
+                </tr>
+                <tr>
+                    <th>Maroon</th>
+                    <td>MR</td>
+                </tr>
+                <tr>
+                    <th>Red</th>
+                    <td>RD</td>
+                </tr>
+                <tr>
+                    <th>Fuchsia</th>
+                    <td>FS</td>
+                </tr>
+                <tr>
+                    <th>Hot Pink</th>
+                    <td>HP</td>
+                </tr>
+                <tr>
+                    <th>Dark Violet</th>
+                    <td>DV</td>
+                </tr>
+                <tr>
+                    <th>Orange</th>
+                    <td>RR</td>
+                </tr>
+                <tr>
+                    <th>Acid Black</th>
+                    <td>ABK</td>
+                </tr>
+                <tr>
+                    <th>Acid Blue</th>
+                    <td>ABE</td>
+                </tr>
+                <tr>
+                    <th>Acid Red</th>
+                    <td>ARD</td>
+                </tr>
+                <tr>
+                    <th>Dark Gray</th>
+                    <td>DG</td>
+                </tr>
+                <tr>
+                    <th rowspan="7">Light Color</th>
+                    <th>Apple Green</th>
+                    <td>AG</td>
+                </tr>
+                <tr>
+                    <th>Mint Green</th>
+                    <td>MG</td>
+                </tr>
+                <th>Lilac</th>
+                <td>LC</td>
+            </tr>
+            <tr>
+                <th>Light Pink</th>
+                <td>LP</td>
+            </tr>
+            <tr>
+                <th>Canary Yellow</th>
+                <td>CY</td>
+            </tr>
+            <tr>
+                <th>Light Blue</th>
+                <td>LB</td>
+            </tr>
+            <tr>
+                <th>White</th>
+                <td>WH</td>
+            </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2"></th>
+                    <td><button type="button" class="btn btnColor">Confirm</button></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table class="printSize">
+            <thead>
+                <tr>
+                    <th>PRINT SIZE</th>
+                    <th>CODE</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th>1/4</th>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <th>1/2</th>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <th>3/4</th>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <th>Whole</th>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <th>Pieces</th>
+                    <td>
+                        <label for="pieces"></label>
+                        <input type="number" id="pieces" name="pieces" required
+                        minlength="1" maxlength="2" min="1"> 
+                    </td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <td><button type="button" class="btn btnPrintSize">Confirm</button></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <table class="printLocation">
+            <thead>
+                <tr>
+                    <th colspan="2">PRINT LOCATION</th>
+                    <th>CODE</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th rowspan="4">Chest</th>
+                    <th class="cl">Left</th>
+                    <td>CL</td>
+                </tr>
+                <tr>
+                    <th>Middle</th>
+                    <td>CM</td>
+                </tr>
+                <tr>
+                    <th>Right</th>
+                    <td>CR</td>
+                </tr>
+                <tr>
+                    <th>Whole</th>
+                    <td>CW</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Abdomen</th>
+                    <td>AB</td>
+                </tr>
+                <tr>
+                    <th rowspan="3">Back</th>
+                    <th>Upper</th>
+                    <td>BU</td>
+                </tr>
+                <tr>
+                    <th>Middle</th>
+                    <td>BM</td>
+                </tr>
+                <tr>
+                    <th>Lower</th>
+                    <td>BL</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Arm</th>
+                    <th>Left</th>
+                    <td>AL</td>
+                </tr>
+                <tr>
+                    <th>Right</th>
+                    <td>AR</ARea:c></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2"></th>
+                    <td><button type="button" class="btn btnPrintLocation">Confirm</button></td>
+                </tr>
+            </tfoot>
+        </table>
+ 
+
+
+    </div>
+    </section>
+  </body>
+</html>
