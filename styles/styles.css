@@ -51,6 +51,7 @@ th, tr, td {
     padding: 0.5rem;
     width: auto;
     cursor: pointer;
+    background-color: transparent;
 }
 thead {
     background-color: #dfdfdf;
@@ -61,13 +62,23 @@ tfoot {
 }
 
 .btn {
+    font-size: 1.6rem;
     margin: 1rem;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.btn:hover{
+    background-color: #dfdfdf;
 }
 
 input[type='number']{
     max-width: 10rem;
 }
-
+/*
 tbody tr:hover{
     background-color: #83e7d2;
 }
+
+*/
+
