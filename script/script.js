@@ -33,7 +33,7 @@ function saveSkuBrand(clicked_id){
     }
 
     if (brandTracker !== text.textContent){
-        document.getElementById(textC).style.border="2px solid rgb(245 197 100)";
+        document.getElementById(textC).style.border="2px solid #F5C564";
 
     }
 }

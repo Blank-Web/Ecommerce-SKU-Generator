@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Glow Arts SKU Generator</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="script/script.js" defer></script>
+    <script src="script/script2.js" defer></script>
   </head>
 
   <body>
@@ -39,19 +39,19 @@
             </thead>
 
             <tbody id="brandBody">
-                <tr id="GA1" onClick="saveSkuBrand(this.id)" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
+                <tr id="GA1" onClick="clickBrand(this.id)" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
                     <th>Yalex</th>
                     <td>GA1</td>
                 </tr>
-                <tr id="GA2" onClick="saveSkuBrand(this.id)" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
+                <tr id="GA2" onClick="clickBrand(this.id)" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
                     <th>Lifeline</th>
                     <td>GA2</td>
                 </tr>
-                <tr id="GA3" onClick="saveSkuBrand(this.id)" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
+                <tr id="GA3" onClick="clickBrand(this.id)" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
                     <th>Blue Corner</th>
                     <td>GA3</td>
                 </tr>
-                <tr id="GA4" onClick="saveSkuBrand(this.id)" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
+                <tr id="GA4" onClick="clickBrand(this.id)" onmouseover="mouseOver(this.id)" onmouseout="mouseOut(this.id)">
                     <th>Southport</th>
                     <td>GA4</td>
                 </tr>
@@ -325,11 +325,11 @@
 
     <div>
         <p>Complete SKU Code:
-            <span id="brandSKU"></span>
-            <span id="shirtSizeSKU"></span>
-            <span id="colorSKU"></span>
-            <span id="printsizeSKU"></span>
-            <span id="printLocationSKU"></span>
+            <span id="submittedBrandSku"></span>
+            <span id="submittedShirtSizeSku"></span>
+            <span id="submittedColorSku"></span>
+            <span id="submittedPrintsizeSku"></span>
+            <span id="submittedPrintLocationSku"></span>
         </p>
     </div>
 
